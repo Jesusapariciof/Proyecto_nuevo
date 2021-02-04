@@ -84,6 +84,7 @@ main{
     main{
         width: 98%;
         margin: auto;
+        margin-bottom: 10px;
     }
 }
 
@@ -195,4 +196,103 @@ text-align: center;
     }
 
 
+}
+
+.cabecera p{
+    text-align: center;
+}
+
+.mentores, .mentores2, .mentores3{
+
+}
+    .mentor, .mentor2, .mentor3{
+        display: flex;
+
+}
+
+.fotomentor, .fotomentor2, .fotomentor3{
+    border-radius: 50%;
+    transition: 0,5s;
+}
+
+.fotomentor:hover{
+    transform: scale(1.5);
+}
+.fotomentor2:hover{
+    transform: scale(1.5);
+}
+
+.fotomentor3:hover{
+    transform: scale(1.5);
+}
+
+
+.biografia, .biografia2, .biografia3{
+    margin-top: 30px;
+    margin-left: 20px;
+    height: 120px;
+    padding-top: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nombre, .nombre2, .nombre3{
+    color: blue;
+    font-size: 2.2em;
+font-style: italic;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+@media (max-width:768px){
+    .mentores{
+        height: 180px;
+        
+    }
+    .fotomentor{
+        box-sizing: border-box;
+    float: right;
+    width: 80px;
+    height: 80px;
+    }
+    .biografia{
+        height: 180px;
+        margin-top: 0px;
+        margin-left: 5px;
+    }
+}
+@media (max-width:768px){
+    .mentores2{
+        height: 260px;
+    }
+    .fotomentor2{
+        box-sizing: border-box;
+    float: right;
+    width: 80px;
+    height: 80px;
+    }
+    .biografia2{
+        height: 260px;
+        margin-top: 0;
+        margin-left: 5px;
+    }
+}
+@media (max-width:768px){
+    .mentores3{
+        height: 220px;
+        
+    }
+    .fotomentor3{
+        box-sizing: border-box;
+    float: right;
+    width: 80px;
+    height: 80px;
+    }
+    .biografia3{
+        height: 220px;
+        margin-top: 0px;
+        margin-left: 5px;
+    }
+    .nombre3{
+        margin-top: 0px;
+        padding-top: 0px;
+    }
 }
