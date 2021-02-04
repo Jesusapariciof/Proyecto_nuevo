@@ -450,3 +450,124 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
             margin-bottom: 10px;
         }
     }
+
+
+    table{
+        width: 80%;
+        height: 300px;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-collapse: collapse;
+        font-size: 25px;
+        ;
+        
+    }
+    
+    @media (max-width:768px){
+        .tabla2{
+            overflow: scroll;
+            height: 300px;
+            width: 100%;
+            margin-right: 0px;
+            border-bottom: 2px solid green;
+           
+            margin-top: 10px;
+            margin-bottom: 10px;
+           
+        }
+        td,th{
+            font-size: 50px;
+        }
+    
+        }
+
+        
+        }
+       thead{
+           font-size: 20px;
+       }
+      
+    
+    th, td {
+        text-align: center;
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: italic;
+        font-size: 10px;
+        height: 5px;
+}
+
+td{
+    padd
+}
+    
+    thead{
+        background-color: #246355;
+        color: white;
+        border: 5px solid #0f362d;
+    }
+   
+
+    tr:nth-child(even){
+        background-color: #ddd;
+    }
+    tr:hover td{
+        background-color: #369681;
+        color: white;
+    }
+    
+    .listaflex{
+        display: flex;
+    margin: auto;
+    }
+    
+    @media (max-width:768px){
+        .listaflex{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            
+        }
+        
+    }
+    .lista1{
+        width: 50%;
+        font-size: 20px;
+        color: rgb(20, 19, 19);
+        font-family: monospace;
+        border-right: 4px solid  darkblue;
+    }
+    
+    @media (max-width:768px){
+        .lista1{
+            border-right: none;
+            border-bottom: 2px solid darkblue;
+        width: 96%;
+        padding-left: 6px;
+        }
+        .lista1 h3{
+            text-align: center;
+        }
+    }
+    .lista1 li{
+        padding: 5px;
+    
+    }
+    .lista1 li ul{
+        font-family: cursive;
+        color: #246355;
+    }
+    
+    .lista1 h3{
+        padding-bottom: 15px;
+        text-align: center;
+    }
+    
+    .matriculados{
+        color: coral;
+        margin: 10px;
+    }
+    .interesar{
+        text-align: center;
+        color: coral;
+    }
