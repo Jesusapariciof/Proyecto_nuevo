@@ -143,7 +143,9 @@ h1, h2{
     width: 160px;
     height: 50px;
     border-radius: 10%;
+
 }
+
 
 .fecha2{
     border: 1px solid blue;
@@ -193,6 +195,11 @@ text-align: center;
         width: 98%;
         margin: auto;
         font-size: 12px;
+    }
+
+    .ppolitica{        text-align: justify;
+        padding-left: 5px;
+        width: 130px;
     }
 
 
@@ -480,8 +487,6 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
             font-size: 50px;
         }
     
-        }
-
         
         }
        thead{
@@ -497,10 +502,6 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
         height: 5px;
 }
 
-td{
-    padd
-}
-    
     thead{
         background-color: #246355;
         color: white;
