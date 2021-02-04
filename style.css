@@ -1,0 +1,198 @@
+body{
+    margin: 0;
+    background-image: url(/img/handmade-illustration-light-sky-blue-light-yellow-watercolor-background-handmade-illustration-light-sky-blue-light-yellow-153233787.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    width: 100%;
+    background-color: darkblue;
+}
+
+#btn-menu{
+    display: none;
+}
+
+header label{
+    display: none;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+}
+
+header label:hover{
+    cursor: pointer;
+    background: rgba (0,0,0,0.3) ;
+}
+
+.menu ul{
+    margin: 0 ;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu li{
+    text-align: center;
+    flex-grow: 1;
+}
+.menu li:hover{
+    background: coral;
+
+}
+.menu li a{
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+
+}
+
+
+@media (max-width:768px){
+    header label{
+        display: block;
+    }
+    .menu{
+        position: absolute;
+        background-color: darkblue;
+        width: 70%;
+        margin-left: -90%;
+    }
+    .menu ul{
+        flex-direction: column;
+
+    }
+    .menu li{
+        border-top: 1px solid white;
+    }
+
+    #btn-menu:checked ~ .menu{
+        margin: 0;
+    }
+}
+
+main{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 80px;
+}
+
+@media (max-width:768px){
+    main{
+        width: 98%;
+        margin: auto;
+    }
+}
+
+footer{
+    width: 80%;
+    margin: auto;
+    height: 100px;
+    padding-bottom: 0px;
+    border: 2px solid darkblue;
+    
+}
+
+.background{
+    border-top: 2px solid red;
+    height: 120px;
+    background-image: url(/img/1586872745142.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.fechas{
+    display: flex;
+    justify-content: space-around;
+    height: 250px;
+}
+
+@media (max-width:768px){
+
+   .fechas{
+       height: 500px;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-around;
+
+   } 
+}
+
+h1, h2{
+    text-align: center;
+    color: coral;
+}
+.fecha1{
+    border: 1px solid blue;
+    text-align: center;
+    font-size: 23px;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    color: white;
+    background-color: blue;
+    padding: 15px 10px 15px 10px;
+    border-radius: 10%;
+}
+
+.boton{
+    width: 160px;
+    height: 50px;
+    border-radius: 10%;
+}
+
+.fecha2{
+    border: 1px solid blue;
+    text-align: center;
+    font-size: 23px;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    color: white;
+    background-color: blue;
+    padding: 15px 10px 15px 10px;
+    border-radius: 10%;
+}
+
+.fecha1:hover{
+    background-color: coral;
+}
+.fecha2:hover{
+    background-color: coral;
+}
+
+.ppag{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: darkblue;
+    color: white;
+    padding: 0px;
+}
+.ppolitica{
+width: 200px;
+text-align: center;
+}
+
+.pcontacto{
+    display: flex;
+    text-align: center;
+}
+
+
+.fondo{
+    background-color: white;
+    width: 90%;
+}
+
+@media (max-width:768px){
+
+    footer{
+        width: 98%;
+        margin: auto;
+        font-size: 12px;
+    }
+
+
+}
